@@ -52,6 +52,16 @@ def turn
 end
 
 # Define your play method below
+<<<<<<< HEAD
+=======
+def play
+  counter = 1
+  while counter < 10
+    turn
+    counter += 1
+  end
+end
+>>>>>>> b293b2ea39be1f90a631fd62bb0c83c0862c6c6c
 
 def turn_count
   counter = 0
@@ -124,12 +134,17 @@ def over?
 end
 
 def winner
+<<<<<<< HEAD
   if won?
+=======
+  if won?(board)
+>>>>>>> b293b2ea39be1f90a631fd62bb0c83c0862c6c6c
     win_combo = won?
     return @board[win_combo[0]]
   end
 end
 
+<<<<<<< HEAD
 def play
   while !over?
     turn
@@ -141,4 +156,6 @@ def play
   end
 end
 
+=======
+>>>>>>> b293b2ea39be1f90a631fd62bb0c83c0862c6c6c
 end

@@ -6,4 +6,9 @@ puts "Welcome to Tic Tac Toe!"
 
 new_game = TicTacToe.new
 
+<<<<<<< HEAD
+=======
+new_game.display_board
+
+>>>>>>> b293b2ea39be1f90a631fd62bb0c83c0862c6c6c
 new_game.play
